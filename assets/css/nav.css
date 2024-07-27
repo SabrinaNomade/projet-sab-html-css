@@ -1,0 +1,33 @@
+/* nav.css */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgb(143, 18, 246);
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.menu-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-nav li {
+    margin: 0 15px;
+}
+
+.menu-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}

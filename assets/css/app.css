@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+.p {
+  max-width: 600px;
+}
+
+body {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+.breadcrumbs {
+  background-color: aqua;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: rgb(143, 18, 246);
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #333;
+}
+
+.image-caption {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-caption img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption p {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.image-caption {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-caption img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption p {
+  color: #777777;
+  font-size: 0.9em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.carousel {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
