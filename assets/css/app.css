@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
 
+
 .p {
   max-width: 600px;
 }
@@ -21,21 +22,9 @@ body {
   background-color: aqua;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-.content {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+
+
 
 h1,
 h2 {
@@ -43,19 +32,117 @@ h2 {
 }
 
 p {
-  color: black;
+  color:black;
+  font-family:  "Edu AU VIC WA NT Hand", cursive;
+  font-size: 20px;
+
+
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+
 
 ul li {
-  background: rgb(143, 18, 246);
+  background: rgb(198, 176, 255);
   margin: 10px 0;
   padding: 10px;
   border-left: 5px solid #333;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.accordion-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #8024e1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-style: italic;
+  font-family:"Edu AU VIC WA NT Hand", cursive; ;
+}
+
+.accordion {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  background-color: #ffe100;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.accordion-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px;
+  background-color: #a437ed;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
 .image-caption {
@@ -99,7 +186,24 @@ footer {
   margin-top: 20px;
 }
 
+
 .carousel img {
-  width: 100%;
+  width: 1920px;
   height: auto;
+  text-align: center;
+ margin-top: 0px ;
+ margin-left: 100px;
+
 }
+@media (max-width: 1200px) {
+
+  body {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+  body {
+      font-size: 12px;
+  } }

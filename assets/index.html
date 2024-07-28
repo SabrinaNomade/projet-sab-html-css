@@ -20,36 +20,99 @@
             <nav class="nav">     
                 <div class="logo">
                     <img src="./img/wave-5980750_1280.png" alt="">
+                    <strong> Planifiez votre Voyage</strong> 
                 </div>
-                <ul class="menu-nav">
-                    <li class="nav-overview"> 
-                        <a href="#">Portail officiel du tourisme en Espagne</a>
-                    </li>
-                    <li><a href="#">Où Aller</a></li>
-                    <li><a href="#">Que Faire</a></li>
-                    <li><a href="#">Planifiez Votre Voyage</a></li>
-                    <li><a href="#">Agenda</a></li>
-                    <li><a href="#">Français</a></li>
+              
+                   
                 </ul>
             </nav>
         
     </ul>
      </li>
+     <div class="accordion-container">
+        <h2>Formulaire de Voyage</h2>
+
         
+        <div class="accordion">
+            <div class="accordion-header" id="ou-aller-header">
+                <h3>Où aller</h3>
+                <span class="accordion-icon">+</span>
+            </div>
+            <div class="accordion-content" id="ou-aller-content">
+                <form>
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" placeholder="Entrez votre destination">
+                    <label for="date-depart">Date de départ:</label>
+                    <input type="date" id="date-depart" name="date-depart">
+                </form>
+            </div>
+        </div>
+
+       
+        <div class="accordion">
+            <div class="accordion-header" id="que-faire-header">
+                <h3>Que faire</h3>
+                <span class="accordion-icon">+</span>
+            </div>
+            <div class="accordion-content" id="que-faire-content">
+                <form>
+                    <label for="activites">Activités:</label>
+                    <textarea id="activites" name="activites" placeholder="Listez vos activités préférées"></textarea>
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="accordion">
+            <div class="accordion-header" id="planifier-header">
+                <h3>Planifiez votre voyage</h3>
+                <span class="accordion-icon">+</span>
+            </div>
+            <div class="accordion-content" id="planifier-content">
+                <form>
+                    <label for="budget">Budget:</label>
+                    <input type="number" id="budget" name="budget" placeholder="Entrez votre budget">
+                    <label for="logement">Logement:</label>
+                    <input type="text" id="logement" name="logement" placeholder="Choisissez un logement">
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="accordion">
+            <div class="accordion-header" id="agenda-header">
+                <h3>Agenda</h3>
+                <span class="accordion-icon">+</span>
+            </div>
+            <div class="accordion-content" id="agenda-content">
+                <form>
+                    <label for="evenements">Événements:</label>
+                    <input type="text" id="evenements" name="evenements" placeholder="Entrez les événements">
+                    <label for="notes">Notes:</label>
+                    <textarea id="notes" name="notes" placeholder="Ajoutez des notes"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
         
             <div class="carousel">
-                <div><img src="./img/beach-1838501_1280.jpg" alt="Image 1"></div>
-                <div><img src="./img/ai-generated-8513893_1280.jpg" alt="Image 2"></div>
-                <div><img src="./img/surf-4087278_1280.jpg" alt="Image 3"></div>
+               
+           
+                <div><img src="./img/beach-1838501_1280.jpg"style="max-width: 100%; height: auto";  alt="Image 1" > <h1>Surf en Espagne</h1></div>
+                <div><img src="./img/ai-generated-8513893_1280.jpg"style="max-width: 100%; height: auto"; alt="Image 2"></div>
+                <div><img src="./img/surf-4087278_1280.jpg"style="max-width: 100%; height: auto"; alt="Image 3"></div>
+                <div> <img src="./img/womans-day-4390452_1280.jpg"style="max-width: 100%; height: auto";  alt="image 4"></div>
+               
+            
                 
 
             </div>
              
-        <div class="container"></div>
-        <section class="content"></section>
-            <h1>Surf en Espagne</h1>
+       
+       
             <p>Si le surf est pour vous un véritable mode de vie, ou si vous souhaitez expérimenter une grande sensation de liberté en contact a
-            <section class="breadcrumbs"></section>
+            
         </section>
         
     </header>
@@ -120,14 +183,13 @@
             </ul>
     
             <div class="image-caption">
-                <img src="ai-generated-8513893_1280.jpg" alt="Surfeur sur une route de Lanzarote (îles Canaries)">
+                <img src="./img/beach-2360136_1280.jpg" alt="Surfeur sur une route de Lanzarote (îles Canaries)">
                 <p>Surfeur sur une route de Lanzarote (îles Canaries) © Rober</p>
             </div>
     
             <p>Vous pourrez pratiquer le surf dans d'autres régions d'Espagne, comme sur les plages de Mundaka (Biscaye) et Zarautz (Guipuzcoa), dans le Pays basque ; sur les plages de Hierbabuena et El Palmar, à Cadix, et sur celles de la région de Ferrolterra-Rías Altas en Galice (connue sous le nom de la Costa das Ondas) ou de Rodiles et Las Salinas, dans les Asturies.</p>
         </section>
-    </body>
-    </html>
+   
 
         
     
@@ -137,4 +199,4 @@
     <script src="./js/app.js"></script>
 
 </body>
-</html>
+<html>
